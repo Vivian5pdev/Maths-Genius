@@ -1,0 +1,38 @@
+/* --------- Heading */
+
+.logo {
+    height: 250px;
+    padding-right: 5px;
+}
+
+
+
+.heading {
+    text-align: left;
+    font-size: 10rem;
+    position: relative;
+    font-size: large;
+}
+
+h1{
+    font-color:Blue;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/* --------- Body */
+
+h2, h3 {
+font-color: red;
+text-align: center;
+}
+
+
+
+
+
+/* --------- Footer */
+footer {
+    width:100%;
+}
