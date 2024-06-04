@@ -1,23 +1,20 @@
 /* --------- Heading */
 
-.logo {
-    height: 250px;
-    padding-right: 5px;
-}
 
+logo{
+    height: 600px; 
+    width: 100%;
+    background : url(../assets/images/kids mathsGeniusLogo.PNG) no-repeat center center/cover;
+    position:100%;
+   }
 
-
-.heading {
-    text-align: left;
-    font-size: 10rem;
-    position: relative;
-    font-size: large;
-}
 
 h1{
-    font-color:Blue;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
+    align-items: center;
+    padding-left: 150px;
+    text-decoration-color:Blue;
 }
 
 
@@ -28,6 +25,13 @@ font-color: red;
 text-align: center;
 }
 
+
+span {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
 
 
 
