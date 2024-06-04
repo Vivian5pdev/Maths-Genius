@@ -33,25 +33,40 @@
 
         <main>
             <!-- Game area -->
-            <!--<h1>Welcome to Web Game, Maths Genius!</h1> -->
+            
         <h2>Select a Game Category...Addition or Dividsion</h2>
 <hr>
         <span class = "operands">
-        <img src="../assets/images/new plus sign.PNG " alt="plus sign">
-        <img src="../assets/images/divide sign.PNG" alt="divide sign">
+        <img src="../assets/images/new plus sign.PNG " alt="plus sign"><a href ="addition"></a>
+        <img src="../assets/images/divide sign.PNG" alt="divide sign"><a href = "division"></a>
         </span>
 <hr>
-
-       
-        </main>
-     
-
-        <script src="index.js"></script>   
-        <footer>
-            <img src="..assets/images/share candy hero.PNG" alt="kids party artwork>;
-
-        </footer>
-
+<div class="game-area">
+    <div class="controls-area">
+        <button data-type="addition" class="btn btn--big btn--green">
+            <i class="fas fa-plus"></i>
+        </button>
+        
+        <button data-type="division" class="btn btn--big btn--red">
+            <i class="fas fa-divide"></i>
+        </button>
+    </div>
+    <div class="question-area">
+        <span id="operand1">0</span>
+        <span id="operator">x</span>
+        <span id="operand2">0</span>
+        <span>=</span>
+        <p class="answer-message">Enter Answer:</p>
+        <input id="answer-box" type="number">
     
+    <button data-type="submit" class="btn btn--green">Submit Answer</button>
+    </div>
+    <div class="score-area">
+    <p class="scores">Correct Answers: <span id="score">0</span></p>
+    <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+    </div>
+</div>
+
+<script src="index.js"></script>
 </body>
-</html>
+</html>        
