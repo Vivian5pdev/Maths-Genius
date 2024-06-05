@@ -10,6 +10,7 @@
         <meta name="keywords" content="love division, love maths, learn maths by dividing, learn maths by adding, educational game, dividsion, addition, arithmetic.">
     
 <!-- font awesome and google fonts -->
+ <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
@@ -42,8 +43,8 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
         <h2>Select a Game Category...Addition or Dividsion</h2>
 <hr>
         <span class = "operators">
-        <img src="../assets/images/new plus sign.PNG " alt="plus sign"><a href ="addition"></a>
-        <img src="../assets/images/divide sign.PNG" alt="divide sign"><a href = "division"></a>
+        <img src="../assets/images/new plus sign.PNG " alt="plus sign">
+        <img src="../assets/images/divide sign.PNG" alt="divide sign">
         </span>
 <hr>
 <div class="game-area">
@@ -57,26 +58,58 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
 				<i class="fas fa-divide"></i>
 			</button>
 		</div>
-		
         <div class="question-area">
-			<span id="num1">0</span>
-			<span id="operator">x</span>
-			<span id="num2">0</span>
-			<span>=</span>
+            <span id="operand1">0</span>
+            <span id="operator">x</span>
+            <span id="operand2">0</span>
+            <span>=</span>
+            <input id="answer-box" type="number" placeholder="Answer">
+            <br><br><button data-type="submit" class="btn btn--green">Submit Answer</button>
+    </div>
 
-            <div>>
-			<p class="answer-message">Enter Answer:</p>
-			<input id="answer-box" type="number">
-            </div>
-		</div>
-		<button data-type="submit" class="btn btn--green">Submit Answer</button>
-	</div>
+    <div class="score-area">
+       <p class="scores">Correct Answers:<span id="score"><strong>0</strong></span></p>
+        <p class="scores">Incorrect Answers:<span id="incorrect"><strong>0</strong></span></p>
+    </div>
 
-	<div class="score-area">
-		<p class="scores">Correct Answers: <span id="score">0</span></p>
-		<p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-	</div>
+    </main>
+    <footer>
+       
 
-    <script src="index.js"></script>
-  </body>
+<!-- Footer -->
+<footer>
+ <ul id="social-networks">
+<li>
+ <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+aria-label="Visit our Facebook page (opens in a new tab)">
+ <i class="fa-brands fa-facebook"></i></a>
+ </li>
+ <li>
+ <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+aria-label="Visit our Twitter page (opens in a new tab)">
+ <i class="fa-brands fa-twitter-square"></i></a>
+ </li>
+ <li>
+<a href="https://www.youtube.com/" target="_blank" rel="noopener"
+aria-label="Visit our YouTube page (opens in a new tab)">
+<i class="fa-brands fa-youtube-square"></i></a>
+</li>
+<li>
+ <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+ aria-label="Visit our Instagram page (opens in a new tab)">
+<i class="fa-brands fa-instagram"></i></a>
+</li>
+</ul>
+
+</footer>
+
+ 
+
+  
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/3b20d96fa9.js"></script>
+ 
+  <script src="assets/js/scripts.js"></script>
+
+</body>
 </html>
