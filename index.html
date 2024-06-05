@@ -9,6 +9,11 @@
         content="content="Maths game. Learning programe that teaches maths, particularly addining and dividing, for young children.">
         <meta name="keywords" content="love division, love maths, learn maths by dividing, learn maths by adding, educational game, dividsion, addition, arithmetic.">
     
+<!-- font awesome and google fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+
         <!-- Title -->
     <title>Maths Genius!</title>
     
@@ -47,31 +52,31 @@
 			<button data-type="addition" class="btn btn--big btn--green">
 				<i class="fas fa-plus"></i>
 			</button>
-			<button data-type="subtract" class="btn btn--big btn--blue">
-				<i class="fas fa-minus"></i>
-			</button>
-			<button data-type="multiply" class="btn btn--big btn--orange">
-				<i class="fas fa-times"></i>
-			</button>
-			<button data-type="division" class="btn btn--big btn--red">
+			
+			<button data-type="dividsion" class="btn btn--big btn--red">
 				<i class="fas fa-divide"></i>
 			</button>
 		</div>
-		<div class="question-area">
-			<span id="operand1">0</span>
+		
+        <div class="question-area">
+			<span id="num1">0</span>
 			<span id="operator">x</span>
-			<span id="operand2">0</span>
+			<span id="num2">0</span>
 			<span>=</span>
+
+            <div>>
 			<p class="answer-message">Enter Answer:</p>
 			<input id="answer-box" type="number">
+            </div>
 		</div>
-		<button data-type="submit" class="btn btn--gray">Submit Answer</button>
+		<button data-type="submit" class="btn btn--green">Submit Answer</button>
 	</div>
 
 	<div class="score-area">
 		<p class="scores">Correct Answers: <span id="score">0</span></p>
 		<p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
 	</div>
+
     <script src="index.js"></script>
   </body>
 </html>

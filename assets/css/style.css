@@ -35,6 +35,8 @@ span {
 
 
 /* --------- Game layout */
+/* --------- Game layout */
+
 .game-area {
     background-color: #E6ECF0;
     box-sizing: border-box;
@@ -125,12 +127,12 @@ span {
     transition: all 0.5s;
 }
 
-.btn--big::after {
-	content: attr(data-type);
-	font-size: 1rem;
-	color: #445361;
-	position: relative;
-	left: -0.5em;
+.btn--big::after{
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+    left: -0.5em;
 }
 
 .btn--blue {
@@ -262,3 +264,5 @@ span {
     .question-area {
         padding: 10px 0;
     }
+
+}
