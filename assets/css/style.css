@@ -17,7 +17,9 @@ h1{
     
 }
 
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* --------- Body */
 
 h2, h3 {
@@ -31,16 +33,13 @@ span {
     align-items: center;
  }
 
-/* --------- Game layout */
 
+/* --------- Game layout */
 .game-area {
-    display: flex;
-    justify-content: space-around;
-    background-color: yellowgreen;
-    opacity: .7;
+    background-color: #E6ECF0;
     box-sizing: border-box;
-    width: 70%;
-    height: 70vh;
+    width: 85%;
+    height: 65vh;
     max-height: 450px;
     max-width: 830px;
     margin-left: auto;
@@ -87,10 +86,10 @@ span {
 
 #answer-box {
     border: none;
-    color: #1375d1;
+    color: #445361;
     display: inline-block;
     height: 40px;
-    width: 70px;
+    width: 80px;
     font-size: 1.2rem;
 }
 
@@ -134,9 +133,27 @@ span {
 	left: -0.5em;
 }
 
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
 
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
 
+.btn--orange {
+    border-color: orange;
+    color: orange;
+}
 
+.btn--orange:active,
+.btn--orange:hover {
+    background-color: darkorange;
+    color: white;
+}
 
 .btn--red {
     border-color: red;
@@ -145,19 +162,19 @@ span {
 
 .btn--red:active,
 .btn--red:hover {
-    background-color: rgb(139, 0, 23);
+    background-color: darkred;
     color: white;
 }
 
 .btn--green {
     border-color: green;
-    color: rgb(19, 157, 19);
+    color: green;
 }
 
 .btn--green:active,
 .btn--green:hover {
-    background-color: rgb(0, 100, 13);
-    color: rgb(8, 100, 54);
+    background-color: darkgreen;
+    color: white;
 }
 
 .btn--gray {
@@ -245,5 +262,3 @@ span {
     .question-area {
         padding: 10px 0;
     }
-
-}
