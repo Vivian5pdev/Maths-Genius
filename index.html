@@ -30,9 +30,12 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
 <body>
     
         <header> 
+            <a href="index.html"></a>
             <h1 class="heading">
                 <img class="logo" src="../assets/images/kids mathsGeniusLogo.PNG" alt="logo">
-
+                
+                    
+                    
         </header>
         
 
@@ -42,19 +45,24 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
             
         <h2>Select a Game Category...Addition or Dividsion</h2>
 <hr>
-        <span class = "operators">
-        <img src="../assets/images/new plus sign.PNG " alt="plus sign">
-        <img src="../assets/images/divide sign.PNG" alt="divide sign">
+    
+        <span class = "operators">  
+            <a href="index.html/game-area">
+    
+        <img id = "add-image" src="../assets/images/new plus sign.PNG " alt="plus sign"><a ref="game-area"></a>
+        <img id ="divide" src="../assets/images/divide sign.PNG" alt="divide sign"><a ref="game-area"></a>
         </span>
+        
+        
 <hr>
 <div class="game-area">
     <div class="game-area">
 		<div class="controls-area">
-			<button data-type="addition" class="btn btn--big btn--green">
+			<button data-type="add" class="btn btn--big btn--green">
 				<i class="fas fa-plus"></i>
 			</button>
 			
-			<button data-type="dividsion" class="btn btn--big btn--red">
+			<button data-type="divide" class="btn btn--big btn--red">
 				<i class="fas fa-divide"></i>
 			</button>
 		</div>
@@ -65,11 +73,10 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
             <span>=</span>
             <input id="answer-box" type="number" placeholder="Answer">
             <br><br><button data-type="submit" class="btn btn--green">Submit Answer</button>
-    </div>
-
-    <div class="score-area">
-       <p class="scores">Correct Answers:<span id="score"><strong>0</strong></span></p>
-        <p class="scores">Incorrect Answers:<span id="incorrect"><strong>0</strong></span></p>
+    
+            <div class="score-area">
+       <p class="scores">Right Answers:<span id="score"><strong>0</strong></span></p>
+        <p class="scores">Wrong Answers:<span id="incorrect"><strong>0</strong></span></p>
     </div>
 
     </main>

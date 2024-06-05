@@ -6,6 +6,7 @@ logo{
     width: 100%;
     background : url(../assets/images/kids mathsGeniusLogo.PNG) no-repeat center center/cover;
     position: 100%;
+    text-align: left;
 }
 
 
@@ -40,7 +41,7 @@ span {
     box-sizing: border-box;
     width: 65%;
     height: 100vh;
-    max-height: 600px;
+    max-height: 800px;
     max-width: 830px;
     position: relative;
     justify-content: center;
@@ -183,9 +184,28 @@ display: block;
     background-color: #0d1013;
 }
 
+/* Footer */
+#social-networks {
+    text-align: center;
+   padding: 20px 0;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+   }
+   
+   #social-networks i {
+   font-size: 250%;
+   padding: 5%;
+   color:crimson;
+   }
+   
+
 /* --------- Media queries */
 
 @media (max-width: 414px) {
+   lo
+   
+   
     .controls-area {
         width: 100%;
     }
@@ -255,13 +275,28 @@ display: block;
 
 
 @media (max-width: 320px) {
+    logo, h1{
+    padding-left: 0;
+    margin-left: 0;
+
+
     .game-area {
         height: 70vh;
+        
+        column-count: 3;
+    }
+    
     }
 
     .controls-area {
         width: 75%;
         margin: 10px auto;
+
+    }
+
+    .controls-area  p {
+        font-display: none;
+        
     }
 
     .btn--big {
@@ -271,19 +306,4 @@ display: block;
         padding: 10px 0;
     }
 
-}
-/* Footer */
-#social-networks {
-     text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    }
-    
-    #social-networks i {
-    font-size: 250%;
-    padding: 5%;
-    color:crimson;
-    }
-    
+
