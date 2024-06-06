@@ -9,6 +9,8 @@
         content="content="Maths game. Learning programe that teaches maths, particularly addining and dividing, for young children.">
         <meta name="keywords" content="love division, love maths, learn maths by dividing, learn maths by adding, educational game, dividsion, addition, arithmetic.">
     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!-- font awesome and google fonts -->
  <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -25,16 +27,15 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
     <link rel="manifest" href="/site.webmanifest">
    
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
         <header> 
-            <a href="index.html"></a>
-            <h1 class="heading">
+            <div>
                 <img class="logo" src="../assets/images/kids mathsGeniusLogo.PNG" alt="logo">
                 
-                    
+            </div>       
                     
         </header>
         
@@ -43,18 +44,18 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
 <main>
             <!-- Game area -->
             
-        <h2>Select a Game Category...Addition or Dividsion</h2>
-<hr>
-    
+        <hr>
         <span class = "operators">  
             <a href="index.html/game-area">
     
-        <img id = "add-image" src="../assets/images/new plus sign.PNG " alt="plus sign"><a ref="game-area"></a>
+        <img id = "add" src="../assets/images/new plus sign.PNG " alt="plus sign"><a ref="game-area"></a>
         <img id ="divide" src="../assets/images/divide sign.PNG" alt="divide sign"><a ref="game-area"></a>
         </span>
         
         
 <hr>
+<h2>Select a Game Category...Addition or Dividsion</h2>
+
 <div class="game-area">
     <div class="game-area">
 		<div class="controls-area">
@@ -75,13 +76,15 @@ integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9
             <br><br><button data-type="submit" class="btn btn--green">Submit Answer</button>
     
             <div class="score-area">
-       <p class="scores">Right Answers:<span id="score"><strong>0</strong></span></p>
-        <p class="scores">Wrong Answers:<span id="incorrect"><strong>0</strong></span></p>
+             <p class="scores">Right Answers:<span id="score"><strong>0</strong></span></p>
+              <p class="scores">Wrong Answers:<span id="incorrect"><strong>0</strong></span></p>
+            </div>
+        </div>
     </div>
 
-    </main>
-    <footer>
-       
+    
+</div>
+</main>
 
 <!-- Footer -->
 <footer>

@@ -203,7 +203,13 @@ display: block;
 /* --------- Media queries */
 
 @media (max-width: 414px) {
-   lo
+   .game-area {
+    display: flex;
+    flex-flow: wrap;
+    position: sticky;
+    width: fit-content;
+    flex-grow: 1;
+   }
    
    
     .controls-area {
@@ -249,9 +255,9 @@ display: block;
     }
 
     #answer-box {
-        display: inline-block;
+        display: flex;
         margin: 5 auto;
-        width: 80px;
+        width: 100px;
     }
 
 
@@ -281,7 +287,9 @@ display: block;
 
 
     .game-area {
+        display: flex;
         height: 70vh;
+        width: fit-content;
         
         column-count: 3;
     }
@@ -294,16 +302,11 @@ display: block;
 
     }
 
-    .controls-area  p {
-        font-display: none;
-        
-    }
+    
 
     .btn--big {
         margin: 10px 10px;
     }
     .question-area {
-        padding: 10px 0;
+        padding: 5px 0;
     }
-
-
